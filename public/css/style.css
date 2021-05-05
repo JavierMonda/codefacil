@@ -1,0 +1,561 @@
+.navbar {
+  background-color: #304269 !important;
+}
+#navbarSupportedContent {
+  background-color: #304269;
+}
+object {
+  width: 100%;
+}
+footer {
+  background-color: #304269;
+  padding-top: 3px;
+  margin-top: 6px;
+}
+.p-section4 {
+  color: #304269;
+  font-size: 16px;
+}
+.a-footer {
+  color: #212529;
+}
+
+@media (min-width: 1200px) {
+
+  .img-home {
+    max-width: 800px;
+	  padding-bottom: 0px;
+  }
+  .publicity {
+    max-height: 150px;
+  }
+	#banner-amazon1 {
+		display: inline-block;
+	}
+	#banner-amazon2 {
+		display: none;
+	}
+	#banner-amazon3 {
+		display: none;
+	}
+  object {
+    height: 720px;
+  }
+  #navbarSupportedContent > ul {
+    padding-right: 50%;
+  }
+  h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 36px;
+	color: #304269;
+  }
+    h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 30px;
+	color: #304269;
+  }
+  .container {
+    max-width: 1200px;
+  }
+  .container-fluid {
+    max-width: 1200px;
+  }
+  #navbarSupportedContent {
+    max-width: 120px;
+  }
+  .form-check-label {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+  }
+  .img-logo {
+    max-width: 150px;
+  }
+
+  .btn-subir {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 200px;
+  }
+  .btn-login {
+    margin-bottom: 1rem;
+    max-width: 100px;
+  }
+  .navbar {
+    height: 92px;
+    margin-bottom: 6px;
+  }
+  .container-fluid {
+    margin-top: 98px;
+  }
+  .section1 {
+    padding-top: 30px;
+	  padding-bottom: 0px;
+    height: 500px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section1-qr {
+    padding-top: 30px;
+    margin-top: 6px;
+  }
+  .section2 {
+    align-items: center;
+    height: 150px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section3 {
+    padding-top: 30px;
+    align-items: center;
+    height: 150px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    /*border: 1px solid black;
+    background-color: #91BDE4;
+	  background-color: #fff;*/
+  }
+  .section3 p {
+    color: #304269;
+    font-size: 16px;
+  }
+  .h3-section3 {
+    margin-top:26px;
+	color: #304269;
+  }
+  .section4 {
+    align-items: center;
+    height: 170px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_login {
+    height: 460px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_register {
+    height: 480px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section1-admin {
+    height: 368px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2-admin {
+    padding-top: 1rem;
+    align-items: center;
+    height: 92px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+}
+
+@media (max-width: 414px) {
+  .img-home {
+    max-width: 80%;
+  }
+  .publicity {
+    max-width: 100%;
+  }
+		#banner-amazon1 {
+		display: none;
+	}
+	#banner-amazon2 {
+		display: none;
+	}
+	#banner-amazon3 {
+		display: inline-block;
+	}
+  object {
+    height: 400px;
+  }
+  h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px !important;
+	color: #304269;
+  }
+    h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+	color: #304269;
+  }
+  #navbarSupportedContent {
+    max-width: 120px;
+  }
+  .form-check-label {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+  }
+  .img-logo {
+    max-width: 100px;
+  }
+
+  .btn-subir {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    max-width: 150px;
+  }
+  .btn-login {
+    margin-bottom: 1rem;
+    max-width: 100px;
+  }
+  .navbar {
+    height: 92px;
+    margin-bottom: 6px;
+  }
+  .container-fluid {
+    margin-top: 120px;
+  }
+  .section1 {
+    height: 150px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2 {
+    align-items: center;
+    height: 184px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section3 {
+    align-items: center;
+    height: 130px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;
+    background-color: #91BDE4;*/
+  }
+  .section3 p {
+    color: #304269;
+    font-size: 12px;
+  }
+  .h3-section3 {
+    margin-top: 0.5rem;
+    font-size: 18px;
+	  color: #304269;
+  }
+  .section4 {
+    align-items: center;
+    height: 280px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_login {
+    height: 460px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_register {
+    height: 480px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section1-admin {
+    height: 368px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2-admin {
+    padding-top: 1rem;
+    align-items: center;
+    height: 92px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .footer {
+    height: 92px;
+    margin-top: 6px;
+    background-color: #304269;
+    padding-top: 3px;
+  }
+  #grid-footer {
+    display: none;
+  }
+  footer hr {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 720px) {
+  .img-home {
+    max-width: 80%;
+  }
+  .publicity {
+    max-height: 80px;
+  }
+	#banner-amazon1 {
+		display: none;
+	}
+	#banner-amazon2 {
+		display: inline-block;
+	}
+	#banner-amazon3 {
+		display: none;
+	}
+	.container-fluid {
+    margin-top: 120px;
+  }
+  object {
+    height: 500px;
+  }
+  h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 28px;
+	color: #304269;
+  }
+    h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+	color: #304269;
+  }
+  .container {
+    max-width: 650px;
+  }
+  #navbarSupportedContent {
+    max-width: 120px;
+  }
+  .form-check-label {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+  }
+  .img-logo {
+    max-width: 150px;
+  }
+
+  .btn-subir {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 150px;
+  }
+  .btn-login {
+    margin-bottom: 1rem;
+    max-width: 100px;
+  }
+  .navbar {
+    height: 92px;
+    margin-bottom: 6px;
+  }
+  .section1 {
+    padding-top: 30px;
+    height: 368px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2 {
+    align-items: center;
+    height: 150px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section3 {
+    align-items: center;
+    height: 100px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;
+    background-color: #91BDE4;
+	  background-color: #91BDE4;*/
+  }
+  .section3 p {
+    color: #304269;
+    font-size: 12px;
+  }
+  .h3-section3 {
+    margin-top: 0.5rem;
+    font-size: 18px;
+	color: #304269;
+  }
+  .section4 {
+    align-items: center;
+    height: 92px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_login {
+    height: 460px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_register {
+    height: 480px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section1-admin {
+    height: 368px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2-admin {
+    padding-top: 1rem;
+    align-items: center;
+    height: 92px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .footer {
+    height: 92px;
+    margin-top: 6px;
+    background-color: #304269;
+    padding-top: 3px;
+  }
+  #grid-footer {
+    display: none;
+  }
+  footer hr {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1200px) {
+  h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 32px;
+	 color: #304269;
+  }
+  .publicity {
+    max-height: 150px;
+  }
+	#banner-amazon1 {
+		display: inline-block;
+	}
+	#banner-amazon2 {
+		display: none;
+	}
+	#banner-amazon3 {
+		display: none;
+	}
+    h3 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 24px;
+	color: #304269;
+  }
+  .container {
+    max-width: 1100px;
+  }
+  #navbarSupportedContent {
+    max-width: 120px;
+  }
+  .form-check-label {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+  }
+  .img-logo {
+    max-width: 150px;
+  }
+
+  .btn-subir {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 200px;
+  }
+  .btn-login {
+    margin-bottom: 1rem;
+    max-width: 100px;
+  }
+  .navbar {
+    height: 92px;
+    margin-bottom: 6px;
+  }
+  .container-fluid {
+    margin-top: 120px;
+  }
+  .section1 {
+    padding-top: 30px;
+    height: 480px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2 {
+    align-items: center;
+    height: 170px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section3 {
+    align-items: center;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*border: 1px solid black;
+    background-color: #91BDE4;*/
+  }
+  .section3 p {
+    color: #304269;
+    font-size: 14px;
+  }
+  .h3-section3 {
+    margin-top: 0.5rem;
+    font-size: 24px;
+	color: #304269;
+  }
+  .section4 {
+    align-items: center;
+    height: 170px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_login {
+    height: 460px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section_register {
+    height: 480px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section1-admin {
+    height: 368px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .section2-admin {
+    padding-top: 1rem;
+    align-items: center;
+    height: 92px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    /*border: 1px solid black;*/
+  }
+  .footer {
+    height: 92px;
+    margin-top: 6px;
+    background-color: #304269;
+    padding-top: 3px;
+  }
+  #grid-footer {
+    display: none;
+  }
+  footer hr {
+    display: none;
+  }
+}

@@ -4,6 +4,17 @@
 #navbarSupportedContent {
   background-color: #304269;
 }
+.doc-container {
+    width: 100%;
+    overflow: scroll;
+    /*max-height: 50vh;*/
+	height: 800px;
+    border: 1px solid black;
+}
+.doc-container > iframe {
+	width:110%;
+	height: 100%;
+}
 object {
   width: 100%;
 }

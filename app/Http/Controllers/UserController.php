@@ -63,7 +63,6 @@ class UserController extends Controller
         $this->authorize('view', [$user, ['user.show','userown.show']]);
 
         $roles = Role::orderBy('name')->get();
-        //$url = Str::slug(public_path($user->name));
         $name = Str::slug($user->name);
         $url = ('https://codefacil.com/'.$name);
 
@@ -101,7 +100,7 @@ class UserController extends Controller
         ]);
 
         //$user->update($request->all());
-        
+
         if ($request->hasFile('file')){
 				$request->validate([
 				'name'          => 'required|max:50|unique:users,name,'.$user->id,
@@ -121,9 +120,9 @@ class UserController extends Controller
             //$file = 'app/'.$file;
             //$file->move(public_path("/images/clients/"));
             $user->file      = $file;
-            
+
         }
-        
+
         $roles = Role::orderBy('name')->get();
 		$name = $request->input('name');
         $nameSlug = Str::slug($request->input('name'));
@@ -132,7 +131,7 @@ class UserController extends Controller
         $user->email = $request->input('email');
 
         $user->save();
-        
+
 
         //$user->roles()->sync($request->get('roles'));
 

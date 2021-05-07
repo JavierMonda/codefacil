@@ -28,9 +28,15 @@ footer {
   font-size: 16px;
 }
 .a-footer {
-  color: #212529;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: dashed;
 }
-
+.p-footer {
+    color: rgba(255, 255, 255, 0.5);
+}
+.h6-footer {
+    color: white;
+}
 @media (min-width: 1200px) {
 
   .img-home {

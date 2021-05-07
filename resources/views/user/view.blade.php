@@ -18,17 +18,9 @@
                         <div class="container">
                             <h3>Perfil {{ $name}}</h3>
 
-                            <!--<div class="form-group">
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" value="{{ old('name', $user->name)}}" disabled>
-                            </div>
-
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="email" name="email" placeholder="Email" value="{{ old('email', $user->email) }}" disabled>
-                            </div>-->
-
                             <div class="form-group">
                                 <object data="{{ url('/') }}/{{$user->file}}" type="application/pdf" width="300px" height="600px"></object>
-								<!--<div id="pdf"><iframe src="{{ asset($user->file) }}" type="application/pdf" width="300px" height="600px"></iframe></div>-->
+
                                 <div class="title m-b-md">
                                   <!-- {!!QrCode::size(300)->generate($url) !!}-->
 									<img src="data:image/png;base64, {!! base64_encode(QrCode::format('png')->size(300)->generate($url)) !!} ">
@@ -40,7 +32,7 @@
 
                             <a class="btn btn-success" href="{{route('user.edit',$user->id)}}">Editar</a>
 
-                        </div> 
+                        </div>
                     <!--</form>-->
 
                 </div>

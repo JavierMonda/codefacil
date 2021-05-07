@@ -8,8 +8,8 @@
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" id="grid-footer1">
-        <h6 class="text-uppercase mb-4 font-weight-bold">CodeFácil</h6>
-        <p>La manera más fácil de subir su catálogo y obtener un código QR gratuito 
+        <h6 class="h6-footer"><b>CODEFÁCIL</b></h6>
+        <p class="p-footer">La manera más fácil de subir su catálogo y obtener un código QR gratuito
           para que sus clientes lo consulten desde su móvil.</p>
       </div>
       <!-- Grid column -->
@@ -18,7 +18,7 @@
 
       <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" id="grid-footer2">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Otros Proyectos</h6>
+        <h6 class="h6-footer"><b>OTROS PROYECTOS</b></h6>
         <p>
           <a class="a-footer" href="https://fuerteventuraenlaweb.com" target="_blank">Fuerteventura en la Web</a>
         </p>
@@ -32,7 +32,7 @@
 
       <!-- Grid column -->
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" id="grid-footer3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Legal</h6>
+        <h6 class="h6-footer"><b>LEGAL</b></h6>
         <p>
           <a class="a-footer" href="{{ url('/informacion-legal/') }}">Información Legal</a>
         </p>
@@ -46,12 +46,12 @@
 
       <!-- Grid column -->
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="grid-footer4">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> contacto @ codefacil.com</p>
+        <h6 class="h6-footer"><b>CONTACTO</b></h6>
+        <p class="p-footer">
+          <i class="fas fa-envelope mr-3"></i> <a class="a-footer" href="mailto:hola@javierjg.es">hola @ javierjg.es</a></p>
         <!--<p>
           <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-        
+
         <p>
           <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
         <p>
@@ -71,10 +71,11 @@
       <div class="col-md-7 col-lg-8">
 
         <!--Copyright-->
-        <p class="text-center text-md-left">Copyright &copy;{{ date('Y') }}:
+        <p class="p-footer">&copy;{{ date('Y') }}
           <a class="a-footer" href="https://codefacil.com">
-            <strong> CodeFacil.com</strong>
+            <strong> CODEFÁCIL - </strong>
           </a>
+          Desarrollo: <a href="https://javierjg.es" target="_blank">JavierJG</a> | Diseño Gráfico: <a href="https://manuelad.es" target="_blank" >ManuelAD</a>
         </p>
 
       </div>

@@ -42,16 +42,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-
-/*Route::get('/test', function () {
-	
-	$user = User::find(2);
-	Gate::authorize('haveaccess','role.index');
-	return $user;
-});
-*/
-
 Route::resource('/role', 'RoleController')->names('role');
 
 Route::resource('/user', 'UserController', ['except'=>['create','store']])->names('user');

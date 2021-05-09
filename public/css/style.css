@@ -41,6 +41,10 @@ footer {
 .h6-footer {
     color: white;
 }
+.img-publicity {
+    max-width: 100%;
+}
+
 @media (min-width: 1200px) {
 
   .img-home {
@@ -177,6 +181,10 @@ footer {
     margin-bottom: 6px;
     /*border: 1px solid black;*/
   }
+    .iframe-video {
+        width: 720px;
+        height: 500px;
+    }
 }
 
 @media (max-width: 414px) {
@@ -310,6 +318,10 @@ footer {
   footer hr {
     display: none;
   }
+    .iframe-video {
+        width: 350px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 415px) and (max-width: 720px) {
@@ -448,6 +460,10 @@ footer {
   footer hr {
     display: none;
   }
+    .iframe-video {
+        width: 400px;
+        height: 150px;
+    }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1200px) {
@@ -579,4 +595,8 @@ footer {
   footer hr {
     display: none;
   }
+    .iframe-video {
+        width: 620px;
+        height: 400px;
+    }
 }

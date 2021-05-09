@@ -12,7 +12,7 @@
                 <div class="card-body text-center">
 
                     @include('custom.message')
-					<a href="https://ordenatech.es" target="_blank"><img src="images/publicity/banner_Ordenatech.jpg" alt="Ordenatech" /></a>
+					<a href="https://ordenatech.es" target="_blank"><img class="img-publicity" src="images/publicity/banner_Ordenatech.jpg" alt="Ordenatech" /></a>
                     <p>Su publicidad aquí (<a class="a-contacto" href="https://javierjg.es/blog/contacto/" target="_blank">contacto</a>)</p>
 
                     <div class="doc-container">

@@ -57,8 +57,8 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name'      => ['required', 'string', 'max:255'],
-            'email'     => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password'  => ['required', 'string', 'min:8', 'confirmed'],
+            'email'     => ['required', 'email', 'max:255', 'unique:users'],
+            'password'  => ['required', 'min:8', 'confirmed'],
             'file'      => ['required', 'mimetypes:application/pdf','max:10000'],
         ]);
     }
@@ -71,7 +71,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        
+
 
 
         /*return User::create([
@@ -80,7 +80,7 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
         */
-        
+
 
         if ($data['file']) {
             $nombrearchivo = Str::slug($data['name']);

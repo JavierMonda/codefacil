@@ -2,6 +2,10 @@
 
 CodeFácil es una sencilla aplicación Web creada en Laravel para subir tus archivos (catálogo, menú, programación de evento...) y obtener un Código QR para visualizarlos desde el móvil.
 
+### Versión actual
+
+v1.0.0
+
 ### Web y Redes Sociales de la Aplicación
 * [Web](https://codefacil.com/) - codefacil.com
 * [Facebook](https://www.facebook.com/CodeQRFacil) - /CodeQRFacil

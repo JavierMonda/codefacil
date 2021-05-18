@@ -12,8 +12,8 @@
                 <div class="card-body text-center">
 
                     @include('custom.message')
-					<a href="https://ordenatech.es" target="_blank"><img class="img-publicity" src="images/publicity/banner_Ordenatech.jpg" alt="Ordenatech" /></a>
-                    <p>Su publicidad aquí (<a class="a-contacto" href="https://javierjg.es/blog/contacto/" target="_blank">contacto</a>)</p>
+					<a href="#" target="_blank"><img class="img-publicity" src="images/publicity/300x300.gif" alt="Publicidad" /></a>
+                    <p>Su publicidad aquí (<a class="a-contacto" href="#" target="_blank">contacto</a>)</p>
 
                     <div class="doc-container">
                         <iframe src="https://drive.google.com/viewerng/viewer?url={{ url('/') }}/{{$user->file}}&embedded=true" frameborder="0" width="100%" height="100%"></iframe>

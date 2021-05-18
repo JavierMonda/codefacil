@@ -29,7 +29,7 @@
 
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
-        <!-- Styles  
+        <!-- Styles
         <style>
             html, body {
                 background-color: #fff;
@@ -97,9 +97,9 @@
 <!--
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-            
+
                 <div class="top-right links">
-                    
+
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -113,15 +113,15 @@
             @endif
 
             <div class="content">
-                
+
                 <div class="title m-b-md">
                     Roles y Permisos<br><h2><small>Proyecto Básico</small></h2>
                 </div>
 
                 <div class="links">
-                    <img class="img-responsive img-footer" src="https://javierjg.es/blog/wp-content/uploads/2020/03/LOGO-JAVI.png" alt="Diseño y Desarrollo Web - JavierJG">
+                    <img class="img-responsive img-footer" src="" alt="Diseño y Desarrollo Web - JavierJG">
                     <p>
-                        Made by <a href="https://javierjg.es" target="_blank">JavierJG</a>
+                        Made by <a href="" target="_blank"></a>
                     </p>
                     <p>
                         &lt!-- La vida sería más fácil si pudiésemos ver su <b><code>Código Fuente</code></b> --&gt
@@ -141,7 +141,7 @@
               <li class="nav-item"><a href="#" class="nav-link">Iniciar Sesión</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Registro</a></li>
             </ul>-->
-            <div class=""> 
+            <div class="">
               <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
             </div>
           </nav>
@@ -174,7 +174,7 @@
           </div>
           <div class="section4"><h1>Tu Publicidad aquí</h1></div>
         </div>
-        
+
         <footer class="footer">
           <div class="container">
             <div class="row pt-5 mt-5 text-center">
@@ -186,7 +186,7 @@
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </footer>
@@ -205,7 +205,7 @@
           <script src="js/jquery.fancybox.min.js"></script>
           <script src="js/jquery.sticky.js"></script>
 
-          
+
           <script src="js/main.js"></script>
     </body>
 </html>

@@ -5,6 +5,7 @@ CodeFácil es una sencilla aplicación Web creada en Laravel para subir tus arch
 ### Versión actual
 
 v1.0.0
+Versionado semántico siguiendo: https://semver.org/lang/es/
 
 ### Web y Redes Sociales de la Aplicación
 * [Web](https://codefacil.com/) - codefacil.com
